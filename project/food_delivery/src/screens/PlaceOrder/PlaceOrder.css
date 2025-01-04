@@ -1,0 +1,83 @@
+.order{
+    margin-top: 100px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    gap:40px;
+    width:max(120vw,120px);
+    border-radius: 15px;
+}
+.delivery-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.person-email input{
+    width:100%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.person-street input{
+    width:100%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.person-phoneno input{
+    width:100%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.person-name input{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.person-name{
+    display: flex;
+    gap: 10px;   
+}
+.person-address{
+    display: flex;
+    gap: 10px;
+}
+.person-address input{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.customer-info input{
+    border-color: grey;
+    color:black;
+    border-radius: 4px;
+}
+.cart-total{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    color:#555;
+}
+.cart-total-details{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+.cart-total hr{
+    margin: 10px 0;
+}
+.cart-total button{
+    border:none;
+    color:white;
+    background-color: tomato;
+    width: max(15vw,200px);
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.cart-total h2{
+    margin-bottom: 10px;
+}
+.cart-bottom{
+    margin-top: 80px;
+    display:flex;
+    justify-content: space-between;
+    gap: max(12vw,10px);
+  color:black;
+}
